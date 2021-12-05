@@ -1,0 +1,27 @@
+body {
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.clock {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+  box-shadow: 0 0 8px 2px;
+}
+
+@media only screen and (max-width: 575.99px) {
+  .clock {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 1199.98px) {
+  .clock {
+    font-size: 50px;
+  }
+}
